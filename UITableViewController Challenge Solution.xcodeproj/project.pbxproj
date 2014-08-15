@@ -14,13 +14,13 @@
 		65A9DCE6199D9E4F00A3D9F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A9DCE5199D9E4F00A3D9F4 /* main.m */; };
 		65A9DCEA199D9E4F00A3D9F4 /* DREAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A9DCE9199D9E4F00A3D9F4 /* DREAppDelegate.m */; };
 		65A9DCED199D9E4F00A3D9F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A9DCEB199D9E4F00A3D9F4 /* Main.storyboard */; };
-		65A9DCF0199D9E4F00A3D9F4 /* DREViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A9DCEF199D9E4F00A3D9F4 /* DREViewController.m */; };
 		65A9DCF2199D9E4F00A3D9F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A9DCF1199D9E4F00A3D9F4 /* Images.xcassets */; };
 		65A9DCF9199D9E4F00A3D9F4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A9DCF8199D9E4F00A3D9F4 /* XCTest.framework */; };
 		65A9DCFA199D9E4F00A3D9F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A9DCD9199D9E4F00A3D9F4 /* Foundation.framework */; };
 		65A9DCFB199D9E4F00A3D9F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A9DCDD199D9E4F00A3D9F4 /* UIKit.framework */; };
 		65A9DD03199D9E4F00A3D9F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65A9DD01199D9E4F00A3D9F4 /* InfoPlist.strings */; };
 		65A9DD05199D9E4F00A3D9F4 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A9DD04199D9E4F00A3D9F4 /* UITableViewController_Challenge_SolutionTests.m */; };
+		65A9DD10199D9FCA00A3D9F4 /* DRETableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A9DD0F199D9FCA00A3D9F4 /* DRETableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		65A9DCE8199D9E4F00A3D9F4 /* DREAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DREAppDelegate.h; sourceTree = "<group>"; };
 		65A9DCE9199D9E4F00A3D9F4 /* DREAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DREAppDelegate.m; sourceTree = "<group>"; };
 		65A9DCEC199D9E4F00A3D9F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		65A9DCEE199D9E4F00A3D9F4 /* DREViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DREViewController.h; sourceTree = "<group>"; };
-		65A9DCEF199D9E4F00A3D9F4 /* DREViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DREViewController.m; sourceTree = "<group>"; };
 		65A9DCF1199D9E4F00A3D9F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		65A9DCF7199D9E4F00A3D9F4 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A9DCF8199D9E4F00A3D9F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		65A9DD00199D9E4F00A3D9F4 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		65A9DD02199D9E4F00A3D9F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65A9DD04199D9E4F00A3D9F4 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		65A9DD0E199D9FCA00A3D9F4 /* DRETableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRETableViewController.h; path = ../DRETableViewController.h; sourceTree = "<group>"; };
+		65A9DD0F199D9FCA00A3D9F4 /* DRETableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRETableViewController.m; path = ../DRETableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,11 @@
 		65A9DCDF199D9E4F00A3D9F4 /* UITableViewController Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
+				65A9DD0E199D9FCA00A3D9F4 /* DRETableViewController.h */,
+				65A9DD0F199D9FCA00A3D9F4 /* DRETableViewController.m */,
 				65A9DCE8199D9E4F00A3D9F4 /* DREAppDelegate.h */,
 				65A9DCE9199D9E4F00A3D9F4 /* DREAppDelegate.m */,
 				65A9DCEB199D9E4F00A3D9F4 /* Main.storyboard */,
-				65A9DCEE199D9E4F00A3D9F4 /* DREViewController.h */,
-				65A9DCEF199D9E4F00A3D9F4 /* DREViewController.m */,
 				65A9DCF1199D9E4F00A3D9F4 /* Images.xcassets */,
 				65A9DCE0199D9E4F00A3D9F4 /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65A9DCEA199D9E4F00A3D9F4 /* DREAppDelegate.m in Sources */,
+				65A9DD10199D9FCA00A3D9F4 /* DRETableViewController.m in Sources */,
 				65A9DCE6199D9E4F00A3D9F4 /* main.m in Sources */,
-				65A9DCF0199D9E4F00A3D9F4 /* DREViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

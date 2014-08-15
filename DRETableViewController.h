@@ -1,5 +1,5 @@
 //
-//  DREViewController.h
+//  DRETableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Andre Tacdiran on 8/14/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DREViewController : UIViewController
+@interface DRETableViewController : UITableViewController
 
 @end
